@@ -1,0 +1,41 @@
+
+
+.cart{
+    background-color: #F3E8FF;
+    border-radius: 5px;
+    padding: 60px 0 40px 0;
+}
+.cart-item{
+    background-color: #cec0c0;
+    border-radius: 5px;
+    padding: 10px 0;
+}
+.cart-item .form-control {
+    background-color: #F6F5FA;
+    border: none;
+    width: 65px;
+    border-radius: 10px !important;
+    font-weight: 700;
+    font-size: 20px;
+}
+/* .input-group .btn{
+    border: 1px solid black;
+} */
+.input-group .btn:focus{
+    box-shadow: none ;
+    outline: 0 ;
+    
+}
+.input-group {
+    width: unset;
+    flex-wrap: nowrap;
+}
+.total h5{
+    padding-left: 45px;
+}
+.status{
+    text-align: right;
+}
+.status h5{
+    margin-right: 45px;
+}

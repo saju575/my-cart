@@ -1,0 +1,93 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <!-- link bootstrap -->
+    <link rel="stylesheet" href="bootstrap/css/bootstrap.min.css">
+    <!-- link font awesome -->
+    <link rel="stylesheet" href="fontawesome/css/all.min.css">
+    <!-- link vanila css -->
+    <link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+    <header class="pt-2">
+        <div class="container">
+            <h1>My shopping cart</h1>
+        </div>
+    </header>
+    <main>
+        <section class="pt-5">
+
+            <div class="container">
+                <div class="cart" id="cart">
+                    
+                        <div class="cart-item shadow col-11 col-lg-10 mx-auto px-3 mb-5">
+
+                            <div class="row g-3">
+
+                                <div class="col-md-7 d-flex align-items-center">
+                                    <img class="w-25" src="img/images/product-1.png" alt="product1">
+                                    <h5 class="px-4">iPhone 11 128GB Black</h5>
+                                </div>
+                                <div class="col-md-5 d-flex align-items-center justify-content-md-end">
+                                    <div class="input-group">
+                                        <button id="phone-minus"  class="btn btn-default minus"><i  class="fas fa-minus minus"></i></button>
+                                        <input id="phone-number"  type="number" min="0" class="form-control text-center" value="1">
+                                        <button id="phone-plus" class="btn btn-default plus"><i class="fas fa-plus plus"></i></button>
+                                    </div>
+                                    <h5 style="width: 80px;" class="px-3">$<span id="phone-total">1121</span></h5>
+                                    <img style="width: 25px;" src="img/images/remove.png" alt="">
+                                </div>
+                            </div>
+                        </div>
+                        <div class="cart-item shadow col-11 col-lg-10 mx-auto px-3 mb-5">
+
+                            <div class="row g-3">
+
+                                <div class="col-md-7 d-flex align-items-center">
+                                    <img class="w-25" src="img/images/product-2-removebg.png" alt="product1">
+                                    <h5 class="px-4">iPhone 11 Silicone Case - Black</h5>
+                                </div>
+                                <div class="col-md-5 d-flex align-items-center justify-content-md-end">
+                                    <div class="input-group">
+                                        <button id="case-minus" class="btn btn-default minus"><i class="fas fa-minus minus"></i></button>
+                                        <input id="case-number"  type="number" min="0" class="form-control text-center" value="1">
+                                        <button id="case-plus" class="btn btn-default plus"><i class="fas fa-plus plus"></i></button>
+                                    </div>
+                                    <h5 style="width: 80px;" class="px-3">$<span id="case-total">51</span></h5>
+                                    <img style="width: 25px;" src="img/images/remove.png" alt="">
+                                </div>
+                            </div>
+                        </div>
+                        <div class="cart-item shadow col-11 col-lg-10 mx-auto px-3 mb-5">
+
+                            <div class="row">
+
+                                <div class="col total">
+                                    <h5>Subtotal:</h5>
+                                    <h5>Tax:</h5>
+                                    <h5>Total:</h5>
+                                </div>
+                                <div class="col status">
+                                    <h5>$<span id="subtotal">1278</span></h5>
+                                    <h5>$<span id="tax">0</span></h5>
+                                    <h5>$<span id="total">1278</span></h5>
+                                </div>
+                            </div>
+                        </div>
+
+
+                    
+                </div>
+            </div>
+        </section>
+    </main>
+    <!-- add bootstrap -->
+    <script src="bootstrap/js/bootstrap.bundle.min.js"></script>
+    <!-- add vanila js -->
+    <script src="js/cart1.js"></script>
+</body>
+</html>
